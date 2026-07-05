@@ -1,0 +1,21 @@
+{
+    "name": "arcade-multiplayer-plus",
+    "description": "Manage up to 20 players in MakeCode Arcade games (player data, IDs, events).",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "game": "*"
+    },
+    "files": [
+        "multiplayer.ts",
+        "README.md"
+    ],
+    "targetVersions": {
+        "target": "arcade",
+        "targetVersion": "1.0.0"
+    },
+    "supportedTargets": ["arcade"],
+    "icon": "./static/icon.png",
+    "color": "#4B0082"
+}
